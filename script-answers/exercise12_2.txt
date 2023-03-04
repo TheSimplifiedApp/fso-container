@@ -1,0 +1,32 @@
+Script started on Mon Feb 27 18:30:32 2023
+[1m[7m%[27m[1m[0m                                                                                ]7;file://CHONGs-MacBook-Pro.local/Users/chongliu/Desktop[0m[27m[24m[Jchongliu@CHONGs-MacBook-Pro Desktop % [K[?2004hexitdocker -vcontainer run -it ubuntu bash[?2004l
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K677076032cca: Pulling fs layer [1B[1A[2K677076032cca: Downloading  310.5kB/29.53MB[1B[1A[2K677076032cca: Downloading  621.8kB/29.53MB[1B[1A[2K677076032cca: Downloading  933.1kB/29.53MB[1B[1A[2K677076032cca: Downloading  1.244MB/29.53MB[1B[1A[2K677076032cca: Downloading  1.547MB/29.53MB[1B[1A[2K677076032cca: Downloading  2.165MB/29.53MB[1B[1A[2K677076032cca: Downloading   3.41MB/29.53MB[1B[1A[2K677076032cca: Downloading  4.647MB/29.53MB[1B[1A[2K677076032cca: Downloading  6.507MB/29.53MB[1B[1A[2K677076032cca: Downloading   8.67MB/29.53MB[1B[1A[2K677076032cca: Downloading  10.82MB/29.53MB[1B[1A[2K677076032cca: Downloading  12.66MB/29.53MB[1B[1A[2K677076032cca: Downloading  14.81MB/29.53MB[1B[1A[2K677076032cca: Downloading  16.67MB/29.53MB[1B[1A[2K677076032cca: Downloading  17.92MB/29.53MB[1B[1A[2K677076032cca: Downloading  19.16MB/29.53MB[1B[1A[2K677076032cca: Downloading  21.02MB/29.53MB[1B[1A[2K677076032cca: Downloading  22.57MB/29.53MB[1B[1A[2K677076032cca: Downloading  24.13MB/29.53MB[1B[1A[2K677076032cca: Downloading  25.37MB/29.53MB[1B[1A[2K677076032cca: Downloading  26.93MB/29.53MB[1B[1A[2K677076032cca: Downloading  28.47MB/29.53MB[1B[1A[2K677076032cca: Verifying Checksum [1B[1A[2K677076032cca: Download complete [1B[1A[2K677076032cca: Extracting  327.7kB/29.53MB[1B[1A[2K677076032cca: Extracting   4.26MB/29.53MB[1B[1A[2K677076032cca: Extracting  7.864MB/29.53MB[1B[1A[2K677076032cca: Extracting  10.49MB/29.53MB[1B[1A[2K677076032cca: Extracting  15.73MB/29.53MB[1B[1A[2K677076032cca: Extracting  20.97MB/29.53MB[1B[1A[2K677076032cca: Extracting  25.56MB/29.53MB[1B[1A[2K677076032cca: Extracting  27.85MB/29.53MB[1B[1A[2K677076032cca: Extracting  29.16MB/29.53MB[1B[1A[2K677076032cca: Extracting  29.53MB/29.53MB[1B[1A[2K677076032cca: Pull complete [1BDigest: sha256:9a0bdde4188b896a372804be2384015e90e3f84906b750c1a53539b585fbbe7f
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@a844d6ad2b75: /root@a844d6ad2b75:/# [K]0;root@a844d6ad2b75: /root@a844d6ad2b75:/# pwd
+[?2004l/
+[?2004h]0;root@a844d6ad2b75: /root@a844d6ad2b75:/# mkdir usr
+[?2004lmkdir: cannot create directory 'usr': File exists
+[?2004h]0;root@a844d6ad2b75: /root@a844d6ad2b75:/# ls
+[?2004l[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;36mlib64[0m  [01;34mmedia[0m   [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+[?2004h]0;root@a844d6ad2b75: /root@a844d6ad2b75:/# cd usr/
+[?2004l[?2004h]0;root@a844d6ad2b75: /usrroot@a844d6ad2b75:/usr# ls
+[?2004l[0m[01;34mbin[0m    [01;34minclude[0m  [01;34mlib32[0m  [01;34mlibexec[0m  [01;34mlocal[0m  [01;34mshare[0m
+[01;34mgames[0m  [01;34mlib[0m      [01;34mlib64[0m  [01;34mlibx32[0m   [01;34msbin[0m   [01;34msrc[0m
+[?2004h]0;root@a844d6ad2b75: /usrroot@a844d6ad2b75:/usr# cd src/
+[?2004l[?2004h]0;root@a844d6ad2b75: /usr/srcroot@a844d6ad2b75:/usr/src# ls
+[?2004l[?2004h]0;root@a844d6ad2b75: /usr/srcroot@a844d6ad2b75:/usr/src# c mkdir app
+[?2004l[?2004h]0;root@a844d6ad2b75: /usr/srcroot@a844d6ad2b75:/usr/src# ls
+[?2004l[0m[01;34mapp[0m
+[?2004h]0;root@a844d6ad2b75: /usr/srcroot@a844d6ad2b75:/usr/src# cd app/ 
+[?2004l[?2004h]0;root@a844d6ad2b75: /usr/src/approot@a844d6ad2b75:/usr/src/app# touch index.js
+[?2004l[?2004h]0;root@a844d6ad2b75: /usr/src/approot@a844d6ad2b75:/usr/src/app# ls
+[?2004lindex.js
+[?2004h]0;root@a844d6ad2b75: /usr/src/approot@a844d6ad2b75:/usr/src/app# exit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                ]7;file://CHONGs-MacBook-Pro.local/Users/chongliu/Desktop[0m[27m[24m[Jchongliu@CHONGs-MacBook-Pro Desktop % [K[?2004heexit[?2004l
+
+Script done on Mon Feb 27 18:32:18 2023
