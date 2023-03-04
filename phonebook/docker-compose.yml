@@ -1,0 +1,24 @@
+services:
+  backend:
+    image: phonebook-backend
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - 3001:3001
+    volumes:
+      - ./backend/:/usr/src/app
+    container_name: phonebook-backend
+
+  frontend:
+    image: phonebook-frontend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - ./frontend/:/usr/src/app
+    container_name: phonebook-frontend
+    depends_on:
+      - backend
